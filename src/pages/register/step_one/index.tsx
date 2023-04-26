@@ -64,7 +64,7 @@ export default function RegisterStepOne(): JSX.Element {
           </FormContainer>
 
           <ButtonsContaier>
-            <ButtonNextStep>Próximo</ButtonNextStep>
+            <ButtonNextStep onClick={() => setStep(1)}>Próximo</ButtonNextStep>
           </ButtonsContaier>
         </BoxForm>
       </Container>

@@ -55,16 +55,19 @@ export const MenuItems = styled(MenuItem)`
   }
 `;
 
-export const RegisterButton = styled(Button)`
-  width: 151px;
-  height: 35px;
-  color: white;
-  font-weight: 600;
+export const ProfilePicture = styled(Button)`
+  width: 52px;
+  height: 52px;
 
-  background: #3776ff;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+
+  border-radius: 150rem;
+
+  font-weight: bold;
 
   &:hover {
-    background: #3776ff;
+    background: #FFFFFF;
   }
 `;
 

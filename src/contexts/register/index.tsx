@@ -122,22 +122,12 @@ export function CreateRegisterContextProvider({
       });
 
       if (response.data && response.status == 201) {
-        // openToast({
-        //   severity: "success",
-        //   message: "Cadastro finalizado com sucesso!",
-        // });
-
         router.push("/register/sucess");
       }
     } catch (error: any) {
       const err = error as AxiosError;
 
       let message = "Error ao realizar cadastro, reveja suas informações";
-
-      // openToast({
-      //   severity: "error",
-      //   message,
-      // });
     }
   });
 

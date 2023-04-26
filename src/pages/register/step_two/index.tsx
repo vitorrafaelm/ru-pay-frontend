@@ -50,8 +50,8 @@ export default function RegisterStepTwo(): JSX.Element {
           </FormContainer>
 
           <ButtonsContaier>
-            <ButtonPreviousStep>Voltar</ButtonPreviousStep>
-            <ButtonNextStep>Próximo</ButtonNextStep>
+            <ButtonPreviousStep onClick={() => setStep(0)}>Voltar</ButtonPreviousStep>
+            <ButtonNextStep onClick={() => setStep(2)}>Próximo</ButtonNextStep>
           </ButtonsContaier>
         </BoxForm>
       </Container>

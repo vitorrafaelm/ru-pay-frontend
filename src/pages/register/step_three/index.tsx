@@ -47,12 +47,11 @@ export default function RegisterStepThree(): JSX.Element {
             />
 
             <ButtonsContaier>
-              <ButtonPreviousStep>Voltar</ButtonPreviousStep>
+              <ButtonPreviousStep onClick={() => setStep(1)}>Voltar</ButtonPreviousStep>
               <ButtonNextStep type="submit">Cadastrar</ButtonNextStep>
             </ButtonsContaier>
           </FormContainer>
 
-          
         </BoxForm>
       </Container>
     </main>
